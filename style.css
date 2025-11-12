@@ -1,0 +1,37 @@
+header {
+    background-color: rgb(79, 53, 5);
+}
+
+section {
+    background-color: rgba(215, 189, 239, 0.573);
+}
+
+#home {
+    color: bisque;
+}
+
+.lutos {
+    width: 200px;
+    height: auto;
+}
+
+.lutos:hover {
+    scale: 1.5;
+}
+
+main>img {
+    width: 200px;
+    height: auto;
+}
+
+li:not(.yoga) {
+    color: blueviolet;
+}
+
+ul {
+    background-color: rgba(240, 176, 213, 0.915);
+}
+
+img[src="/images/warrior.png"]:hover {
+    scale: 2;
+}
