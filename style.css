@@ -14,11 +14,22 @@ section {
     width: 200px;
     height: auto;
 }
+section{
+    font-size: 2px;
+}
+
+.welcome {
+    background-color: rgb(145, 222, 246);
+    font-size: 30em;
+    height: 5vh;
+}
 
 .lutos:hover {
     scale: 1.5;
 }
-
+.text1{
+    width: 50vw;
+}
 main>img {
     width: 200px;
     height: auto;
