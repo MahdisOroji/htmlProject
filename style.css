@@ -66,7 +66,7 @@ img[src="/images/warrior.png"]:hover {
 }
 
 .first {
-    background-color: rgb(203, 0, 10);
+    background-color: rgb(203, 0, 162);
     width: 500px;
     margin-bottom: 1rem;
     padding: 10px;
@@ -76,10 +76,10 @@ img[src="/images/warrior.png"]:hover {
 }
 
 .second {
-    background-color: rgb(234, 201, 11);
+    background-color: rgb(225, 203, 77);
     width: 500px;
     padding: 10px;
-    border-bottom: 3px rgb(203, 0, 10) solid;
+    border-bottom: 3px rgb(203, 0, 162) solid;
     border-radius: 50px;
 
 
