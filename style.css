@@ -1,5 +1,6 @@
 header {
     background-color: rgb(79, 53, 5);
+    
 }
 
 section {
@@ -84,4 +85,9 @@ img[src="/images/warrior.png"]:hover {
 
 
 
+}
+body{
+    background-image: url(/images/decorative-background-international-yoga-day_1048-20156.avif);
+    background-size: cover;
+    background-attachment: fixed;
 }
