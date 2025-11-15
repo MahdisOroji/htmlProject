@@ -23,7 +23,7 @@ table {
     margin-top: 50px;
     caption-side: bottom;
     font-family: vazirMatn;
-
+    /* box-shadow: 0 0 10px grey; */
 }
 
 table,
@@ -47,6 +47,8 @@ caption {
     font-size: larger;
     letter-spacing: 5px;
 }
-.box{
+
+.box {
     margin-right: 30rem;
+
 }
