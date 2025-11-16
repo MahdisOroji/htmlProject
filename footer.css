@@ -1,0 +1,123 @@
+:root {
+    --main-color: rgb(0 183 194);
+    --bg-sec-color: rgb(243 244 246);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+  background-image: url(/images/sakura.jpg);
+  height: 600px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    margin-top: 20px;
+    align-items: start;
+}
+
+.title1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.mainTitle {
+    display: flex;
+    color: var(--main-color);
+    align-items: center;
+    gap: 10px;
+}
+
+.htmlIcon {
+    width: 50px;
+    height: auto;
+}
+
+.media {
+    display: flex;
+    gap: 8px;
+}
+
+.mediaLogo {
+    background-color: var(--bg-sec-color);
+    border-radius: 100%;
+    padding: 10px;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.emailBox {
+    display: inline-flex;
+    background-color: var(--bg-sec-color);
+    align-items: center;
+    gap: 5px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.231);
+}
+
+.title2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h2 {
+    color: var(--main-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.title3{
+    margin-left: 10px;
+}
+.newsLetter {
+    display: flex;
+    flex-direction: column;
+}
+
+b {
+    color: var(--main-color);
+}
+
+.mailbox {
+    display: flex;
+    align-items: center;
+    margin-top: 10px !important;
+    gap: 20px;
+}
+
+.mailInput {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(243 244 246);
+    box-shadow: 1px 4px 5px rgba(0, 184, 194, 0.56);
+}
+
+.mailBtn {
+    background-color: rgb(7, 104, 109);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 0;
+    font-size: large;
+}
+.enamad{
+    margin-top: 20px;
+    width: 100px;
+    height: auto;
+}
