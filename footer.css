@@ -1,140 +1,146 @@
 :root {
-    --main-color: rgb(0 183 194);
-    --bg-sec-color: rgb(243 244 246);
+  --main-color: rgb(0 183 194);
+  --bg-sec-color: rgb(243 244 246);
 }
 @font-face {
-    font-family: vazir;
-    src: url(/fonts/Vazir.woff) format(woff);
+  font-family: vazir;
+  src: url(/fonts/Vazir.woff) format(woff);
 }
 * {
-    padding: 0;
-    margin: 0;
-    font-family: vazir;
+  padding: 0;
+  margin: 0;
+  font-family: vazir;
 }
 
 .main {
-    background-image: url(/images/sakura.jpg);
-    height: 600px;
+  background-image: url(/images/sakura.jpg);
+  height: 600px;
 }
 
 .wrapper {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 120px;
-    margin-top: 30px;
-    align-items: start;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 120px;
+  margin-top: 30px;
+  align-items: start;
 }
 
 .title1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
 }
 
 .mainTitle {
-    display: flex;
-    color: var(--main-color);
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  color: var(--main-color);
+  align-items: center;
+  gap: 10px;
 }
 
 .htmlIcon {
-    width: 50px;
-    height: auto;
+  width: 50px;
+  height: auto;
 }
 
 .media {
-    display: flex;
-    gap: 8px;
+  display: flex;
+  gap: 8px;
 }
 
 .mediaLogo {
-    background-color: var(--bg-sec-color);
-    border-radius: 100%;
-    padding: 10px;
-    text-decoration: none;
-    color: blueviolet;
+  background-color: var(--bg-sec-color);
+  border-radius: 100%;
+  /* padding: 10px; */
+  text-decoration: none;
+  color: blueviolet;
+  /* *********************** */
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  /* *********************** */
 }
 
 .emailBox {
-    display: inline-flex;
-    background-color: var(--bg-sec-color);
-    align-items: center;
-    gap: 5px;
-    padding: 8px 10px;
-    border-radius: 10px;
-    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.231);
+  display: inline-flex;
+  background-color: var(--bg-sec-color);
+  align-items: center;
+  gap: 5px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.231);
 }
 
 .title2 {
-    display: flex;
-    flex-direction: column;
-    margin-left: -200px;
-
+  display: flex;
+  flex-direction: column;
+  margin-left: -200px;
 }
 
 h2 {
-    color: var(--main-color);
-    font-size: large;
+  color: var(--main-color);
+  font-size: large;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 li {
-    margin-bottom: 20px;
-    font-size: large;
+  margin-bottom: 20px;
+  font-size: large;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .title3 {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .newsLetter {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 b {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 .mailbox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mailInput {
-    padding: 10px 15px;
-    border-radius: 5px;
-    border: 1px solid rgb(243 244 246);
-    box-shadow: 1px 4px 5px rgba(0, 184, 194, 0.56);
-    margin-left: 3px;
-    width: 200px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(243 244 246);
+  box-shadow: 1px 4px 5px rgba(0, 184, 194, 0.56);
+  margin-left: 3px;
+  width: 200px;
 }
 
 .mailBtn {
-    background-color: rgb(7, 104, 109);
-    color: #fff;
-    padding: 8px 15px;
-    border-radius: 15px;
-    border: 0;
-    font-size: large;
+  background-color: rgb(7, 104, 109);
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 15px;
+  border: 0;
+  font-size: large;
 }
 
 .enamad {
-    margin-top: 20px;
-    width: 100px;
-    height: auto;
+  margin-top: 20px;
+  width: 100px;
+  height: auto;
 }
