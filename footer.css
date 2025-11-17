@@ -2,22 +2,26 @@
     --main-color: rgb(0 183 194);
     --bg-sec-color: rgb(243 244 246);
 }
-
+@font-face {
+    font-family: vazir;
+    src: url(/fonts/Vazir.woff) format(woff);
+}
 * {
     padding: 0;
     margin: 0;
+    font-family: vazir;
 }
 
 .main {
-  background-image: url(/images/sakura.jpg);
-  height: 600px;
+    background-image: url(/images/sakura.jpg);
+    height: 600px;
 }
 
 .wrapper {
     display: flex;
     justify-content: space-between;
-    margin: 0 50px;
-    margin-top: 20px;
+    margin: 0 120px;
+    margin-top: 30px;
     align-items: start;
 }
 
@@ -27,6 +31,7 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
+    margin-top: 10px;
 }
 
 .mainTitle {
@@ -59,7 +64,7 @@
     background-color: var(--bg-sec-color);
     align-items: center;
     gap: 5px;
-    padding: 10px 10px;
+    padding: 8px 10px;
     border-radius: 10px;
     box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.231);
 }
@@ -67,24 +72,34 @@
 .title2 {
     display: flex;
     flex-direction: column;
+    margin-left: -200px;
 
 }
 
 h2 {
     color: var(--main-color);
+    font-size: large;
 }
 
 ul {
     list-style: none;
 }
 
+li {
+    margin-bottom: 20px;
+    font-size: large;
+}
+
 a {
     text-decoration: none;
     color: black;
 }
-.title3{
-    margin-left: 10px;
+
+.title3 {
+    display: flex;
+    flex-direction: column;
 }
+
 .newsLetter {
     display: flex;
     flex-direction: column;
@@ -97,8 +112,7 @@ b {
 .mailbox {
     display: flex;
     align-items: center;
-    margin-top: 10px !important;
-    gap: 20px;
+    justify-content: center;
 }
 
 .mailInput {
@@ -106,17 +120,20 @@ b {
     border-radius: 5px;
     border: 1px solid rgb(243 244 246);
     box-shadow: 1px 4px 5px rgba(0, 184, 194, 0.56);
+    margin-left: 3px;
+    width: 200px;
 }
 
 .mailBtn {
     background-color: rgb(7, 104, 109);
     color: #fff;
-    padding: 10px 15px;
-    border-radius: 10px;
+    padding: 8px 15px;
+    border-radius: 15px;
     border: 0;
     font-size: large;
 }
-.enamad{
+
+.enamad {
     margin-top: 20px;
     width: 100px;
     height: auto;
